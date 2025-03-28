@@ -1,12 +1,10 @@
 {
-  "name": "walnut-app",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "dependencies": {},
   "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
+    "@trivago/prettier-plugin-sort-imports": "^5.2.1",
+    "prettier": "^3.4.2"
   }
 }
